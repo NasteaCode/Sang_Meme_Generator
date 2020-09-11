@@ -1,0 +1,74 @@
+img {
+    height: 100%;
+    width: 100%;
+}
+
+/* Title */
+#title {
+    font-family: Lobster;
+    margin-bottom: 4vh;
+}
+
+#title h3 {
+    font-size: 50px;
+    color: #7098da;
+}
+
+/* Cotainer Class */
+.container {
+    height: 50vh;
+    width: 50vw;
+    position: relative;
+}
+
+/* Button Class */
+.btn-primary {
+    margin-top: 2vh;
+}
+body {
+    text-align: center !important;
+}
+
+/* Text Sizes */
+.text {
+    position: absolute;
+    color: black;
+    font-size: 100px !important;
+    font-family: Rubik+Mono+One !important;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke: 3px black !important;
+    /* text-shadow: -3px -3px 0 #000, 3px -3px 0 #000, -3px 3px 0 #000, 3px 3px 0 #000; */
+}
+  
+.topTextString {
+    top: 10%;
+    left: 50%;
+    position: absolute;
+    color: black;
+    font-size: 50px;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+}
+  
+.bottomTextString {
+    top: 85%;
+    left: 50%;
+    color: black;
+    font-size: 50px;
+}
+
+/* Input field sizing */
+.containerBox {
+    height: 15%;
+    width: 70%;
+    margin-bottom: 1vh; 
+}
+
+/* Background for Containers */
+#grayBox {
+    height: 35vh;
+    width: 100vw;
+    background: #bbe1fa;
+}
